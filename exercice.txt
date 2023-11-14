@@ -1,0 +1,8 @@
+String Difference
+Complete the following functions int alike(char *word1, char *word2) that returns a percentage indicating how similar the two words are. We will measure the similarity of two words as follows:
+
+Let str1 be the word with len(str1)≤len(str2).
+Let diff=0.
+Loop through each character of str1 and let i be the index of the i-th character.
+If str1[i] is not equal to str2[i], then increment diff by 1.
+Return (len(str1)−diff)×100/len(str2
